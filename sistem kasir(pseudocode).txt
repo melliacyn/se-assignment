@@ -1,0 +1,26 @@
+Judul 
+program_kasir_sederhana
+
+deklarasi
+var nama_item : string;
+var jumlah_item, harga_item, total : integer;
+
+implementasi
+//user menginputkan nama item, harga item, dan jumlah item. Lalu sistem akan otomatis menjumlahkan total harga yang harus dibayarkan
+
+total <- 0;
+
+write("Masukkan nama item: ");
+read(nama_item);
+
+write("Masukkan harga item: ");
+read(harga_item);
+
+write("Masukkan jumlah item: ");
+read(jumlah_item);
+
+total <- harga_item*jumlah_item;
+
+write(total);
+
+
